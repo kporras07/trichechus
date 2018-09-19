@@ -15,6 +15,7 @@
       "email": "dharizza@estudiomanati.com"
     }
   ],
+  "type": "drupal-profile",
   "repositories": [
     {
       "type": "composer",
