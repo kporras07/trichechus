@@ -5,6 +5,7 @@ version: 8.1.x
 core: 8.x
 distribution: TRUE
 dependencies:
+  - svg_image
   - admin_toolbar
   - admin_toolbar_tools
   - better_exposed_filters
@@ -22,12 +23,13 @@ dependencies:
   - ctools_block
   - datetime
   - dblog
+  - dropzonejs
+  - dropzonejs_eb_widget
   - editor
   - entity_embed
   - entity_reference
   - environment_indicator
   - field_ui
-  - field_group
   - file
   - filter
   - focal_point
@@ -51,7 +53,6 @@ dependencies:
   - search
   - seckit
   - shortcut
-  - svg_image
   - system
   - taxonomy
   - text
