@@ -7,6 +7,7 @@ distribution: TRUE
 dependencies:
   - admin_toolbar
   - admin_toolbar_tools
+  - better_exposed_filters
   - block
   - block_content
   - breakpoint
@@ -15,9 +16,14 @@ dependencies:
   - config
   - contact
   - contextual
+  - config_split
+  - ctools
+  - ctools_views
+  - ctools_block
   - datetime
   - dblog
   - editor
+  - entity_embed
   - entity_reference
   - environment_indicator
   - field_ui
@@ -25,11 +31,14 @@ dependencies:
   - file
   - filter
   - focal_point
+  - honeypot
   - image
   - inline_entity_form
   - link
+  - media_entity_browser
   - menu_link_content
   - menu_ui
+  - metatag
   - node
   - options
   - page_cache
@@ -37,8 +46,10 @@ dependencies:
   - path
   - pathauto
   - quickedit
+  - recaptcha
   - responsive_image
   - search
+  - seckit
   - shortcut
   - svg_image
   - system
@@ -46,5 +57,7 @@ dependencies:
   - text
   - twig_tweak
   - user
+  - video_embed_field
   - views
   - views_ui
+  - xmlsitemap
