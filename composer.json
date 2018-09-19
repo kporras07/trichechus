@@ -68,6 +68,14 @@
     "squizlabs/php_codesniffer": "^2.8",
     "drupal/coder": "^8.2"
   },
+  "extra": {
+    "enable-patching": true,
+    "patches": {
+      "drupal/entity_browser": {
+        "Patch entity browser to fix incorrect configuration": "https://www.drupal.org/files/issues/2845037_15.patch"
+      }
+    }
+  },
   "conflict": {
     "drupal/drupal": "*"
   },
