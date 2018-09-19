@@ -63,20 +63,30 @@ This profile already have a config split named "dev" so you can separate your de
 
 ## Extra Steps
 
-In order to use some of the provided config, you need to do some changes to your settings.php.
-
+In order to use some of the provided config, you need to do some extra steps:
 ### Configuration Split
 
-You need to enable the split wherever it's necessary by using this line of code:
+You need to enable the split wherever it's necessary by using this line of code in settings.php:
 ```
 $config['config_split.config_split.dev']['status'] = TRUE;
 ```
 
 ### Environment Indicator
 
-You need to enable environment indicator wherever you want to use it by adding these lines of code:
+You need to enable environment indicator wherever you want to use it by adding these lines of code in settings.php:
 ```
 $config['environment_indicator.indicator']['bg_color'] = '#FF0100';
 $config['environment_indicator.indicator']['fg_color'] = '#FFFFFF';
 $config['environment_indicator.indicator']['name'] = 'Live';
+```
+
+### DropzoneJS
+
+This profile includes dropzonejs library; however, it's installed under vendor/enyo until https://github.com/ManatiCR/trichechus/issues/1 gets fixed. It's your responsability to move it to the right folder (web/libraries/dropzone). If your project is using https://github.com/kporras07/composer-symlinks you could do it with a symlink like this:
+```
+  "extra":
+    "symlinks": {
+      "vendor/enyo/dropzone": "web/libraries/dropzone"
+    }
+  }
 ```
