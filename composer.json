@@ -1,6 +1,7 @@
 {
   "name": "manaticr/trichechus",
   "description": "Trichechus Install Profile",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "Manati",
