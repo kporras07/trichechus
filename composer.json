@@ -73,6 +73,9 @@
     "patches": {
       "drupal/entity_browser": {
         "Patch entity browser to fix incorrect configuration": "https://www.drupal.org/files/issues/2845037_15.patch"
+      },
+      "drupal/dropzonejs": {
+        "Patch dropzonejs to fatal error during install": "https://gist.githubusercontent.com/kporras07/4782a76ea1bc808617c0cbea987997a8/raw/3545233be6911496217d4f8dfce0af2c69ba4502/dropzonejs-eb_widget-get-config-dependency-key-on-null.patch"
       }
     }
   },
