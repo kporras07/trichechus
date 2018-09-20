@@ -12,9 +12,7 @@ before_script:
   - composer require manaticr/trichechus:"dev-$TRAVIS_COMMIT"
 script:
   - cd ~/trichechus-test
-  - ls web/profiles/
-  - ls web/profiles/contrib
-  - ls web/modules/contrib
+  - git --version
   - mkdir web/libraries
   - ln -s $PWD/vendor/enyo/dropzone $PWD/web/libraries/dropzone
   - ./vendor/bin/drush si trichechus -y --db-url=sqlite://tmp/.ht.sqlite
