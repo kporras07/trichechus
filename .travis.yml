@@ -7,12 +7,12 @@ before_install:
   - composer create-project drupal-composer/drupal-project:8.x-dev trichechus-test --stability dev --no-interaction
   - cd trichechus-test
   - composer config repositories.trichechus path $TRAVIS_BUILD_DIR
+  - composer config extra.enable-patching true
 before_script:
   - cd ~/trichechus-test
   - composer require manaticr/trichechus:"dev-$TRAVIS_COMMIT"
 script:
   - cd ~/trichechus-test
-  - git --version
   - mkdir web/libraries
   - ln -s $PWD/vendor/enyo/dropzone $PWD/web/libraries/dropzone
   - ./vendor/bin/drush si trichechus -y --db-url=sqlite://tmp/.ht.sqlite
