@@ -15,5 +15,5 @@ script:
   - ls web/profiles/
   - ls web/profiles/contrib
   - ls web/modules/contrib
-  - ./vendor/bin/drush si trichechus --admin-account=pass
+  - ./vendor/bin/drush si trichechus -y
 
