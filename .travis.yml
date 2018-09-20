@@ -15,5 +15,5 @@ script:
   - ls web/profiles/
   - ls web/profiles/contrib
   - ls web/modules/contrib
-  - ./vendor/bin/drush si trichechus -y
+  - ./vendor/bin/drush si trichechus -y --db-url=sqlite://tmp/.ht.sqlite
 
