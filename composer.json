@@ -69,6 +69,9 @@
     "squizlabs/php_codesniffer": "^2.8",
     "drupal/coder": "^8.2"
   },
+  "config": {
+    "preferred-install": "source"
+  },
   "extra": {
     "enable-patching": true,
     "patches": {
