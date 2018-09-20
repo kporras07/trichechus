@@ -15,5 +15,6 @@ script:
   - ls web/profiles/
   - ls web/profiles/contrib
   - ls web/modules/contrib
+  - mkdir web/libraries
   - ln -s $PWD/vendor/enyo/dropzone $PWD/web/libraries/dropzone
   - ./vendor/bin/drush si trichechus -y --db-url=sqlite://tmp/.ht.sqlite
