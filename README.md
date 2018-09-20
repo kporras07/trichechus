@@ -1,4 +1,4 @@
-# Trichechus Install Profile
+# Trichechus Install Profile [![Build Status](https://travis-ci.org/ManatiCR/trichechus.svg?branch=8.x-1.x)](https://travis-ci.org/ManatiCR/trichechus)
 
 A base Drupal install profile to scaffold Manati projects.
 
