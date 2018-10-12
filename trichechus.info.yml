@@ -3,7 +3,8 @@ type: profile
 description: 'A base Drupal install profile for Manati projects'
 version: 8.1.x
 core: 8.x
-distribution: TRUE
+distribution:
+  name: Trichechus
 dependencies:
   - svg_image
   - admin_toolbar
