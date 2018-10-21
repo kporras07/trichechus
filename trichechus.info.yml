@@ -40,6 +40,8 @@ dependencies:
   - inline_entity_form
   - link
   - media_entity_browser
+  - media_entity_facebook
+  - media_entity_twitter
   - menu_link_content
   - menu_ui
   - metatag
