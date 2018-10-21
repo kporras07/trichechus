@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media.type.image
     - views.view.media_entity_browser
   module:
     - dropzonejs_eb_widget

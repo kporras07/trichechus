@@ -5,7 +5,6 @@ dependencies:
     - field.field.media.tweet.field_media_twitter
     - media.type.tweet
   module:
-    - content_moderation
     - path
 id: media.tweet.default
 targetEntityType: media

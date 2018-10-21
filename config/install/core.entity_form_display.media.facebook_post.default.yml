@@ -5,7 +5,6 @@ dependencies:
     - field.field.media.facebook_post.field_media_facebook
     - media.type.facebook_post
   module:
-    - content_moderation
     - path
 id: media.facebook_post.default
 targetEntityType: media
