@@ -5,6 +5,7 @@ dependencies:
     - views.view.media_entity_browser
   module:
     - dropzonejs_eb_widget
+    - entity_browser_entity_form
     - media
     - views
 name: media_entity_browser
@@ -27,7 +28,7 @@ widgets:
       submit_text: 'Select media'
       auto_select: false
     uuid: 6586703a-6976-4124-8a49-cbb07ceaa3b1
-    weight: -8
+    weight: -9
     label: 'Choose existing media'
     id: view
   e43a6261-491b-400b-a277-832740af37bd:
@@ -49,3 +50,33 @@ widgets:
     weight: -10
     label: 'Upload new image'
     id: dropzonejs_media_entity_inline_entity_form
+  18399d8f-424b-4609-9523-aba1075c7ea2:
+    settings:
+      entity_type: media
+      bundle: facebook_post
+      form_mode: default
+      submit_text: 'Embed post'
+    uuid: 18399d8f-424b-4609-9523-aba1075c7ea2
+    weight: -7
+    label: 'Add facebook post'
+    id: entity_form
+  305d23ca-c57c-47a4-9369-50e99047053b:
+    settings:
+      entity_type: media
+      bundle: tweet
+      form_mode: default
+      submit_text: 'Embed tweet'
+    uuid: 305d23ca-c57c-47a4-9369-50e99047053b
+    weight: -6
+    label: 'Add tweet'
+    id: entity_form
+  c74e2588-dde2-4ee0-89b2-6bbcd69fcdcc:
+    settings:
+      entity_type: media
+      bundle: remote_video
+      form_mode: default
+      submit_text: 'Embed video'
+    uuid: c74e2588-dde2-4ee0-89b2-6bbcd69fcdcc
+    weight: -8
+    label: 'Add remote video'
+    id: entity_form

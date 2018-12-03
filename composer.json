@@ -63,7 +63,9 @@
     "drupal/focal_point": "1.x-dev",
     "enyo/dropzone": "^5.5",
     "drupal/media_entity_browser": "2.x-dev",
-    "drupal/entity_embed": "1.x-dev"
+    "drupal/entity_embed": "1.x-dev",
+    "drupal/media_entity_facebook": "^2.0@alpha",
+    "drupal/media_entity_twitter": "2.0-alpha2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8",
