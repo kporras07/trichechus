@@ -10,7 +10,7 @@ before_install:
   - composer config extra.enable-patching true
 before_script:
   - cd ~/trichechus-test
-  - composer require manaticr/trichechus:"dev-$TRAVIS_COMMIT"
+  - composer require manaticr/trichechus
 script:
   - cd ~/trichechus-test
   - mkdir web/libraries
