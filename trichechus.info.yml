@@ -6,15 +6,16 @@ core: 8.x
 distribution:
   name: Trichechus
 dependencies:
-  - svg_image
   - admin_toolbar
   - admin_toolbar_tools
+  - analytics
   - better_exposed_filters
   - block
   - block_content
   - breakpoint
   - ckeditor
   - color
+  - components
   - config
   - contact
   - contextual
@@ -27,6 +28,7 @@ dependencies:
   - dropzonejs
   - dropzonejs_eb_widget
   - editor
+  - emulsify_twig
   - entity_embed
   - entity_reference
   - environment_indicator
@@ -52,11 +54,16 @@ dependencies:
   - path
   - pathauto
   - quickedit
+  - quicklink
+  - redirect
   - recaptcha
   - responsive_image
+  - rh_node
   - search
   - seckit
   - shortcut
+  - smtp
+  - svg_image
   - system
   - taxonomy
   - text

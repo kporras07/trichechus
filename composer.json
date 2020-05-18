@@ -61,10 +61,17 @@
     "drupal/inline_entity_form": "1.x-dev",
     "drupal/focal_point": "^1.4",
     "enyo/dropzone": "^5.5",
-    "drupal/media_entity_browser": "2.x-dev",
+    "drupal/media_entity_browser": "^2.0",
     "drupal/entity_embed": "^1.1",
     "drupal/media_entity_facebook": "^2.0@alpha",
-    "drupal/media_entity_twitter": "^2.4"
+    "drupal/media_entity_twitter": "^2.4",
+    "emulsify-ds/emulsify-drupal": "^1.0@beta",
+    "drupal/components": "^1.1",
+    "drupal/token": "^1.7",
+    "drupal/redirect": "^1.6",
+    "drupal/quicklink": "^1.2",
+    "drupal/smtp": "^1.0",
+    "drupal/analytics": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8",
