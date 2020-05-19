@@ -15,30 +15,43 @@ composer require manaticr/trichechus
 
 This project contains several modules commonly used in Manati projects:
 
-- pathauto
-- devel
 - admin_toolbar
 - admin_toolbar_tools
-- rabbit_hole
-- twig_tweak
-- svg_image
-- config_split
-- xmlsitemap
-- metatag
-- seckit
-- inline_entity_form
-- paragraphs
-- environment_indicator
-- default_content_deploy
-- video_embed_field
-- recaptcha
-- ctools
-- honeypot
+- analytics
 - better_exposed_filters
+- components
+- config_split
+- ctools
+- default_content_deploy
+- devel
 - dropzonejs
-- stage_file_proxy
-- focal_point
 - entity_embed
+- environment_indicator
+- focal_point
+- honeypot
+- image_style_quality
+- inline_entity_form
+- media_entity_browser
+- media_entity_facebook
+- media_entity_twitter
+- metatag
+- paragraphs
+- pathauto
+- quicklink
+- rabbit_hole
+- recaptcha
+- redirect
+- redis
+- retina_images
+- search_api_solr
+- seckit
+- shs
+- smtp
+- stage_file_proxy
+- svg_image
+- twig_tweak
+- video_embed_field
+- xmlsitemap
 
 ### Themes
 
@@ -78,6 +91,14 @@ You need to enable environment indicator wherever you want to use it by adding t
 $config['environment_indicator.indicator']['bg_color'] = '#FF0100';
 $config['environment_indicator.indicator']['fg_color'] = '#FFFFFF';
 $config['environment_indicator.indicator']['name'] = 'Live';
+```
+
+### Default Content Deploy
+
+You need to create a folder called `content` at the project root and then let it know to drupal the location of de folder:
+
+```
+$settings['default_content_deploy_content_directory'] = '../content';
 ```
 
 ### DropzoneJS

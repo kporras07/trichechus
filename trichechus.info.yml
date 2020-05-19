@@ -24,7 +24,9 @@ dependencies:
   - ctools_views
   - ctools_block
   - datetime
+  - datetime_range
   - dblog
+  - default_content_deploy
   - dropzonejs
   - dropzonejs_eb_widget
   - editor
@@ -39,7 +41,9 @@ dependencies:
   - help
   - honeypot
   - image
+  - image_style_quality
   - inline_entity_form
+  - layout_builder
   - link
   - media_entity_browser
   - media_entity_facebook
@@ -57,11 +61,14 @@ dependencies:
   - quicklink
   - redirect
   - recaptcha
+  - retina_images
   - responsive_image
   - rh_node
   - search
+  - search_api_solr
   - seckit
   - shortcut
+  - shs
   - smtp
   - svg_image
   - system
