@@ -57,9 +57,8 @@ This project contains several modules commonly used in Manati projects:
 
 Includes:
 
-- material_admin
+- emulsify-drupal
 
-In the near future, a base theme will be included so that you can bootstrap your theming faster.
 
 ### Basic configuration
 
@@ -77,17 +76,20 @@ This profile already have a config split named "dev" so you can separate your de
 ## Extra Steps
 
 In order to use some of the provided config, you need to do some extra steps:
+
 ### Configuration Split
 
 You need to enable the split wherever it's necessary by using this line of code in settings.php:
-```
+
+```php
 $config['config_split.config_split.dev']['status'] = TRUE;
 ```
 
 ### Environment Indicator
 
 You need to enable environment indicator wherever you want to use it by adding these lines of code in settings.php:
-```
+
+```php
 $config['environment_indicator.indicator']['bg_color'] = '#FF0100';
 $config['environment_indicator.indicator']['fg_color'] = '#FFFFFF';
 $config['environment_indicator.indicator']['name'] = 'Live';
@@ -95,16 +97,17 @@ $config['environment_indicator.indicator']['name'] = 'Live';
 
 ### Default Content Deploy
 
-You need to create a folder called `content` at the project root and then let it know to drupal the location of de folder:
+You need to create a folder called `content` in the root of the project and then we need to let Drupal to know the location of the folder:
 
-```
+```php
 $settings['default_content_deploy_content_directory'] = '../content';
 ```
 
 ### DropzoneJS
 
 This profile includes dropzonejs library; however, it's installed under vendor/enyo until https://github.com/ManatiCR/trichechus/issues/1 gets fixed. It's your responsability to move it to the right folder (web/libraries/dropzone). If your project is using https://github.com/kporras07/composer-symlinks you could do it with a symlink like this:
-```
+
+```php
   "extra":
     "symlinks": {
       "vendor/enyo/dropzone": "web/libraries/dropzone"
