@@ -50,7 +50,7 @@ dependencies:
   - media_entity_twitter
   - menu_link_content
   - menu_ui
-  - metatag
+  - metatag_open_graph
   - node
   - options
   - page_cache
