@@ -1,10 +1,11 @@
 language: php
 php:
-  - 7.1
   - 7.2
-before_install:
+  - 7.3
+  - 7.4
+  before_install:
   - cd ~
-  - composer create-project drupal-composer/drupal-project:8.x-dev trichechus-test --stability dev --no-interaction
+  - composer create-project drupal/recommended-project trichechus-test --stability dev --no-interaction
   - cd trichechus-test
   - composer config repositories.trichechus path $TRAVIS_BUILD_DIR
   - composer config extra.enable-patching true
