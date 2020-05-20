@@ -5,7 +5,7 @@ php:
   - 7.4
 env:
   - COMPOSER_MEMORY_LIMIT=-1 COMPOSER_MIRROR_PATH_REPOS=1
-  before_install:
+before_install:
   - cd ~
   - composer create-project drupal-composer/drupal-project:8.x-dev trichechus-test --stability dev --no-interaction
   - cd trichechus-test
