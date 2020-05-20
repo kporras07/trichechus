@@ -5,7 +5,8 @@ A base Drupal install profile to scaffold Manati projects.
 ## How to use it?
 
 On any Drupal project, add trichechus to your build:
-```
+
+```php
 composer require manaticr/trichechus
 ```
 
@@ -58,7 +59,6 @@ This project contains several modules commonly used in Manati projects:
 Includes:
 
 - emulsify-drupal
-
 
 ### Basic configuration
 
