@@ -11,6 +11,7 @@ before_install:
   - cd trichechus-test
   - composer config repositories.trichechus path $TRAVIS_BUILD_DIR
   - composer config extra.enable-patching true
+  - composer require drush/drush
 before_script:
   - cd ~/trichechus-test
   - composer require manaticr/trichechus:"*"
