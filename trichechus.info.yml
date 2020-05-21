@@ -6,27 +6,32 @@ core: 8.x
 distribution:
   name: Trichechus
 dependencies:
-  - svg_image
   - admin_toolbar
   - admin_toolbar_tools
+  - analytics
   - better_exposed_filters
   - block
   - block_content
   - breakpoint
   - ckeditor
   - color
+  - components
   - config
+  - config_split
   - contact
   - contextual
-  - config_split
   - ctools
-  - ctools_views
   - ctools_block
+  - ctools_views
   - datetime
+  - datetime_range
   - dblog
+  - default_content_deploy
+  - devel
   - dropzonejs
   - dropzonejs_eb_widget
   - editor
+  - emulsify_twig
   - entity_embed
   - entity_reference
   - environment_indicator
@@ -37,7 +42,11 @@ dependencies:
   - help
   - honeypot
   - image
+  - image_style_quality
   - inline_entity_form
+  - inline_form_errors
+  - kint
+  - layout_builder
   - link
   - media_entity_browser
   - media_entity_facebook
@@ -52,11 +61,19 @@ dependencies:
   - path
   - pathauto
   - quickedit
+  - quicklink
   - recaptcha
+  - redirect
   - responsive_image
+  - retina_images
+  - rh_node
   - search
+  - search_api_solr
   - seckit
   - shortcut
+  - shs
+  - smtp
+  - svg_image
   - system
   - taxonomy
   - text
@@ -67,5 +84,5 @@ dependencies:
   - views_ui
   - xmlsitemap
 themes:
-  - seven
+  - claro
   - bartik
