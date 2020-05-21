@@ -51,7 +51,6 @@ This project contains several modules commonly used in Manati projects:
 - stage_file_proxy
 - svg_image
 - twig_tweak
-- video_embed_field
 - xmlsitemap
 
 ### Themes

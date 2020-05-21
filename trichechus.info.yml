@@ -76,7 +76,6 @@ dependencies:
   - text
   - twig_tweak
   - user
-  - video_embed_field
   - views
   - views_ui
   - xmlsitemap

@@ -1,15 +1,22 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: null
 id: remote_video
 label: 'Remote Video'
-description: ''
+description: 'This media type allows you to add YouTube and Vimeo embedding.'
 source: 'oembed:video'
 queue_thumbnail_downloads: false
 new_revision: false
 source_configuration:
   thumbnails_directory: 'public://oembed_thumbnails'
-  providers: {  }
+  providers:
+    - YouTube
+    - Vimeo
   source_field: field_media_oembed_video
 field_map:
   default_name: name
