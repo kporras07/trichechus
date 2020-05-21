@@ -17,16 +17,17 @@ dependencies:
   - color
   - components
   - config
+  - config_split
   - contact
   - contextual
-  - config_split
   - ctools
-  - ctools_views
   - ctools_block
+  - ctools_views
   - datetime
   - datetime_range
   - dblog
   - default_content_deploy
+  - devel
   - dropzonejs
   - dropzonejs_eb_widget
   - editor
@@ -43,6 +44,8 @@ dependencies:
   - image
   - image_style_quality
   - inline_entity_form
+  - inline_form_errors
+  - kint
   - layout_builder
   - link
   - media_entity_browser
@@ -59,10 +62,10 @@ dependencies:
   - pathauto
   - quickedit
   - quicklink
-  - redirect
   - recaptcha
-  - retina_images
+  - redirect
   - responsive_image
+  - retina_images
   - rh_node
   - search
   - search_api_solr
