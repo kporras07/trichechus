@@ -7,6 +7,7 @@ dependencies:
     - search_api
   config:
     - search_api.server.solr
+    - core.entity_view_mode.node.full
 third_party_settings:
   search_api_solr:
     finalize: false
@@ -89,6 +90,16 @@ field_settings:
     indexed_locked: true
     type_locked: true
     hidden: true
+  rendered_landing_page:
+    label: 'Rendered Landing page (HTML output)'
+    property_path: rendered_item
+    type: text
+    configuration:
+      roles:
+        anonymous: anonymous
+      view_mode:
+        'entity:node':
+          landing_page: full
   status:
     label: Published
     datasource_id: 'entity:node'
