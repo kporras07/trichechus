@@ -40,7 +40,7 @@ backend_config:
   disabled_request_dispatchers:
     - request_dispatcher_httpcaching_default_7_0_0
   rows: 10
-  retrieve_data: false
+  retrieve_data: true
   highlight_data: false
   skip_schema_check: false
   server_prefix: ''
