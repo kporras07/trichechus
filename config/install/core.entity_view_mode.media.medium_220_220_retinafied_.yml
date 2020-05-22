@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.medium_220_220_retinafied_
+label: 'Medium (220×220 retinafied)'
+targetEntityType: media
+cache: true

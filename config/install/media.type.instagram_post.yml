@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_instagram
+third_party_settings:
+  crop:
+    image_field: null
+id: instagram_post
+label: 'Instagram Post'
+description: 'This media entity allows you to add an Instagram Post.'
+source: instagram
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_instagram
+field_map: {  }

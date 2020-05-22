@@ -5,7 +5,7 @@ dependencies:
     - media_entity_facebook
 id: facebook_post
 label: 'Facebook Post'
-description: ''
+description: 'This media entity allows you to add an Facebook Post.'
 source: facebook
 queue_thumbnail_downloads: false
 new_revision: false

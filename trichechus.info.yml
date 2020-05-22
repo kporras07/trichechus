@@ -17,12 +17,12 @@ dependencies:
   - color
   - components
   - config
+  - config_split
   - contact
   - contextual
-  - config_split
   - ctools
-  - ctools_views
   - ctools_block
+  - ctools_views
   - datetime
   - datetime_range
   - dblog
@@ -47,6 +47,7 @@ dependencies:
   - link
   - media_entity_browser
   - media_entity_facebook
+  - media_entity_instagram
   - media_entity_twitter
   - menu_link_content
   - menu_ui
@@ -59,10 +60,10 @@ dependencies:
   - pathauto
   - quickedit
   - quicklink
-  - redirect
   - recaptcha
-  - retina_images
+  - redirect
   - responsive_image
+  - retina_images
   - rh_node
   - search
   - search_api_solr
@@ -75,6 +76,7 @@ dependencies:
   - taxonomy
   - text
   - twig_tweak
+  - url_embed
   - user
   - views
   - views_ui

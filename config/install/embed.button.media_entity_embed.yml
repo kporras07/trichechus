@@ -1,6 +1,14 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.large_480_480_
+    - core.entity_view_mode.media.large_480_480_retinafied_
+    - core.entity_view_mode.media.medium_220_220_
+    - core.entity_view_mode.media.medium_220_220_retinafied_
+    - core.entity_view_mode.media.thumbnail_100_100_
+    - core.entity_view_mode.media.thumbnail_100_100_retinafied_
+    - entity_browser.browser.media_entity_browser
   module:
     - entity_embed
     - media
@@ -11,9 +19,14 @@ type_settings:
   entity_type: media
   bundles: {  }
   display_plugins:
-    - 'view_mode:media.full'
-    - 'entity_reference:media_thumbnail'
+    - 'view_mode:media.large_480_480_'
+    - 'view_mode:media.large_480_480_retinafied_'
+    - 'view_mode:media.medium_220_220_'
+    - 'view_mode:media.medium_220_220_retinafied_'
+    - 'view_mode:media.thumbnail_100_100_'
+    - 'view_mode:media.thumbnail_100_100_retinafied_'
   entity_browser: media_entity_browser
   entity_browser_settings:
     display_review: true
+icon: {  }
 icon_uuid: null

@@ -5,7 +5,7 @@ dependencies:
     - media_entity_twitter
 id: tweet
 label: Tweet
-description: ''
+description: 'This media entity allows you to add a Twitter Post.'
 source: twitter
 queue_thumbnail_downloads: false
 new_revision: false

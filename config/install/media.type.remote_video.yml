@@ -8,7 +8,7 @@ third_party_settings:
     image_field: null
 id: remote_video
 label: 'Remote Video'
-description: 'This media type allows you to add YouTube and Vimeo embedding.'
+description: 'This media entity allows you to add YouTube and Vimeo embedding.'
 source: 'oembed:video'
 queue_thumbnail_downloads: false
 new_revision: false
