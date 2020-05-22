@@ -40,6 +40,7 @@ settings:
           items:
             - Blockquote
             - media_entity_embed
+            - url
         -
           name: Tools
           items:
