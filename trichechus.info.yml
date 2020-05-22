@@ -27,6 +27,7 @@ dependencies:
   - datetime_range
   - dblog
   - default_content_deploy
+  - devel
   - dropzonejs
   - dropzonejs_eb_widget
   - editor
@@ -43,6 +44,8 @@ dependencies:
   - image
   - image_style_quality
   - inline_entity_form
+  - inline_form_errors
+  - kint
   - layout_builder
   - link
   - media_entity_browser
