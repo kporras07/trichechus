@@ -5,5 +5,9 @@ id: node
 label: Content
 tags:
   title: '[node:title] | [site:name]'
-  description: '[node:summary]'
+  content_language: '[node:langcode]'
+  robots: 'index, follow'
   canonical_url: '[node:url]'
+  og_url: '[node:url]'
+  og_site_name: '[site:name]'
+  og_title: '[node:title]'
