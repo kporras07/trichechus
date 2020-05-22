@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.complete_editor
+    - filter.format.full_editor
   module:
     - ckeditor
-format: complete_editor
+format: full_editor
 editor: ckeditor
 settings:
   toolbar:

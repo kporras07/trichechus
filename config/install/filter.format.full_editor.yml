@@ -6,8 +6,8 @@ dependencies:
     - entity_embed
     - media
     - url_embed
-name: 'Complete Editor'
-format: complete_editor
+name: 'Full Editor'
+format: full_editor
 weight: 0
 filters:
   editor_file_reference:
