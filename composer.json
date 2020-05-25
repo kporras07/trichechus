@@ -77,7 +77,10 @@
     "drupal/warmer": "^1.1",
     "drupal/search_api_solr": "^3.9",
     "drupal/redis": "^1.4",
-    "drupal/url_embed": "^1.0"
+    "drupal/url_embed": "^1.0",
+    "drupal/layout_builder_restrictions": "^2.7",
+    "drupal/layout_builder_modal": "^1.1",
+    "drupal/lb_claro": "1.x-dev"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5",
