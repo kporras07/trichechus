@@ -22,7 +22,6 @@ settings:
             - JustifyLeft
             - JustifyCenter
             - JustifyRight
-            - JustifyBlock
             - Outdent
             - Indent
         -
