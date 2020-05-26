@@ -4,8 +4,8 @@ dependencies:
   config:
     - field.field.media.tweet.field_media_twitter
     - media.type.tweet
-    module:
-      - path
+  module:
+    - path
 id: media.tweet.default
 targetEntityType: media
 bundle: tweet

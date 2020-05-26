@@ -4,8 +4,8 @@ dependencies:
   config:
     - field.field.media.instagram_post.field_media_instagram
     - media.type.instagram_post
-    module:
-      - path
+  module:
+    - path
 id: media.instagram_post.default
 targetEntityType: media
 bundle: instagram_post
