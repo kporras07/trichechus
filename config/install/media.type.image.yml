@@ -3,7 +3,7 @@ status: true
 dependencies: {  }
 id: image
 label: Image
-description: ''
+description: 'This media entity allows you to add an Image.'
 source: image
 queue_thumbnail_downloads: false
 new_revision: false

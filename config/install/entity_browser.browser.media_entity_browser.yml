@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - media.type.image
     - views.view.media_entity_browser
   module:
     - dropzonejs_eb_widget
@@ -79,4 +80,14 @@ widgets:
     uuid: c74e2588-dde2-4ee0-89b2-6bbcd69fcdcc
     weight: -8
     label: 'Add remote video'
+    id: entity_form
+  b33ea115-b734-4b3b-87fd-68ad8af4eaf3:
+    settings:
+      entity_type: media
+      bundle: instagram_post
+      form_mode: default
+      submit_text: 'Embed post'
+    uuid: b33ea115-b734-4b3b-87fd-68ad8af4eaf3
+    weight: 6
+    label: 'Add instagram post'
     id: entity_form

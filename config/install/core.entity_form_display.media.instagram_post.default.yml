@@ -2,24 +2,22 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.image.field_media_image
-    - image.style.thumbnail
-    - media.type.image
+    - field.field.media.instagram_post.field_media_instagram
+    - media.type.instagram_post
   module:
     - path
-    - svg_image
-id: media.image.default
+id: media.instagram_post.default
 targetEntityType: media
-bundle: image
+bundle: instagram_post
 mode: default
 content:
-  field_media_image:
+  field_media_instagram:
     weight: 2
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: image_image
+    type: string_textfield
     region: content
   langcode:
     type: language_select

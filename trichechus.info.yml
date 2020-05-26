@@ -50,6 +50,7 @@ dependencies:
   - link
   - media_entity_browser
   - media_entity_facebook
+  - media_entity_instagram
   - media_entity_twitter
   - menu_link_content
   - menu_ui
@@ -78,8 +79,8 @@ dependencies:
   - taxonomy
   - text
   - twig_tweak
+  - url_embed
   - user
-  - video_embed_field
   - views
   - views_ui
   - xmlsitemap
