@@ -4,4 +4,8 @@ dependencies: {  }
 id: components
 label: Components
 weight: null
-blocks: null
+blocks:
+  -
+    block_id: 'inline_block:heading'
+    weight: 0
+    image_path: null

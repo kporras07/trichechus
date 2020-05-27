@@ -29,7 +29,7 @@ content:
     weight: 2
     label: hidden
     settings:
-      view_mode: component_618_280_retinafied_
+      view_mode: component_618_280_retinafied
       link: false
     third_party_settings: {  }
     region: content
