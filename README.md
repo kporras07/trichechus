@@ -32,9 +32,9 @@ This project contains several modules commonly used in Manati projects:
 - honeypot
 - image_style_quality
 - inline_entity_form
+- layout_builder_browser
 - layout_builder_modal
 - layout_builder_restrictions
-- lb_claro
 - media_entity_browser
 - media_entity_facebook
 - media_entity_twitter
