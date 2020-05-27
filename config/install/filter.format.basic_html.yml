@@ -1,9 +1,11 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - media
 name: 'Basic HTML'
 format: basic_html
-weight: 0
+weight: -8
 filters:
   filter_align:
     id: filter_align
@@ -45,3 +47,12 @@ filters:
     status: true
     weight: 9
     settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }
