@@ -9,7 +9,6 @@ dependencies:
     - node.type.landing_page
   module:
     - layout_builder
-    - layout_builder_restrictions
     - layout_discovery
     - user
 third_party_settings:
@@ -23,36 +22,6 @@ third_party_settings:
           label: ''
         components: {  }
         third_party_settings: {  }
-  layout_builder_restrictions:
-    allowed_block_categories:
-      - '@entity'
-      - 'Chaos Tools'
-      - 'Content fields'
-      - 'Custom block types'
-      - Devel
-      - Forms
-      - Help
-      - 'Inline blocks'
-      - 'Lists (Views)'
-      - Menus
-      - System
-      - User
-      - core
-    entity_view_mode_restriction:
-      whitelisted_blocks:
-        '@entity': {  }
-        'Chaos Tools': {  }
-        'Content fields': {  }
-        Devel: {  }
-        Forms: {  }
-        Help: {  }
-        'Lists (Views)': {  }
-        Menus: {  }
-        System: {  }
-        User: {  }
-        core: {  }
-      blacklisted_blocks: {  }
-      allowed_layouts: {  }
 id: node.landing_page.full
 targetEntityType: node
 bundle: landing_page
