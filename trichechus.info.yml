@@ -47,6 +47,8 @@ dependencies:
   - inline_form_errors
   - kint
   - layout_builder
+  - layout_builder_browser
+  - layout_builder_modal
   - link
   - media_entity_browser
   - media_entity_facebook
