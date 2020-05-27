@@ -10,7 +10,7 @@ entity_type: block_content
 bundle: heading
 label: Title
 description: 'The title of the component.'
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
