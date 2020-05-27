@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: heading
+label: Heading
+revision: 0
+description: 'This block is used by Layout Builder to add a Heading Component.'

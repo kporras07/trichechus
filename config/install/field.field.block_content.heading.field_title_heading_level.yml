@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.heading
+    - field.storage.block_content.field_title_heading_level
+  module:
+    - options
+id: block_content.heading.field_title_heading_level
+field_name: field_title_heading_level
+entity_type: block_content
+bundle: heading
+label: 'Title heading level'
+description: 'The HTML tag of the Title field.'
+required: true
+translatable: false
+default_value:
+  -
+    value: H1
+default_value_callback: ''
+settings: {  }
+field_type: list_string
