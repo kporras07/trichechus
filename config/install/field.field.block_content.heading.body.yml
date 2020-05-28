@@ -10,7 +10,7 @@ id: block_content.heading.body
 field_name: body
 entity_type: block_content
 bundle: heading
-label: Body
+label: Description
 description: ''
 required: true
 translatable: true
