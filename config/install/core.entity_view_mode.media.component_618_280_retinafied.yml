@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.component_618_280_retinafied
+label: 'Component (618×280 retinafied)'
+targetEntityType: media
+cache: true

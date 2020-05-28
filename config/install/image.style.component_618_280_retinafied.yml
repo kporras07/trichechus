@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies: {  }
+name: component_618_280_retinafied
+label: 'Component (618×280 retinafied)'
+effects:
+  b9b18b01-9baa-4518-90b8-92638973fec5:
+    uuid: b9b18b01-9baa-4518-90b8-92638973fec5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 618
+      height: 280
+      anchor: center-center
+      retinafy: 1
+      multiplier: '2'

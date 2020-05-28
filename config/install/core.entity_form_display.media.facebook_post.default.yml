@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.field.media.facebook_post.field_media_facebook
     - media.type.facebook_post
-  module:
-    - path
 id: media.facebook_post.default
 targetEntityType: media
 bundle: facebook_post
@@ -21,7 +19,7 @@ content:
     region: content
   langcode:
     type: language_select
-    weight: 0
+    weight: 1
     region: content
     settings:
       include_locked: true
@@ -34,7 +32,7 @@ content:
     third_party_settings: {  }
   name:
     type: string_textfield
-    weight: 1
+    weight: 0
     region: content
     settings:
       size: 60
