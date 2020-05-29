@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: basic_card
+label: 'Basic card'
+revision: 0
+description: 'This block is used by Layout Builder to add a Basic card Component.'

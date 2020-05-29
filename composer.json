@@ -94,6 +94,9 @@
       },
       "drupal/dropzonejs": {
         "Patch dropzonejs to fatal error during install": "https://gist.githubusercontent.com/kporras07/4782a76ea1bc808617c0cbea987997a8/raw/3545233be6911496217d4f8dfce0af2c69ba4502/dropzonejs-eb_widget-get-config-dependency-key-on-null.patch"
+      },
+      "drupal/paragraphs": {
+        "Patch paragraphs to fix erros when adding from layout builder block": "https://www.drupal.org/files/issues/2019-08-10/paragraphs-set_langcode_widgets-290139_updated.patch"
       }
     }
   },

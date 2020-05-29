@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_card
+    - field.storage.block_content.field_basic_card_variation
+  module:
+    - options
+id: block_content.basic_card.field_basic_card_variation
+field_name: field_basic_card_variation
+entity_type: block_content
+bundle: basic_card
+label: 'Card variation'
+description: 'The style of the component.'
+required: true
+translatable: false
+default_value:
+  -
+    value: style-1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

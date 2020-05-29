@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - block_content.type.heading
-    - entity_browser.browser.media_entity_browser_modal
+    - entity_browser.browser.media_entity_browser_image_modal
     - field.field.block_content.heading.body
     - field.field.block_content.heading.field_image
     - field.field.block_content.heading.field_link
@@ -31,7 +31,7 @@ content:
   field_image:
     weight: 2
     settings:
-      entity_browser: media_entity_browser_modal
+      entity_browser: media_entity_browser_image_modal
       field_widget_display: label
       field_widget_edit: true
       field_widget_remove: true

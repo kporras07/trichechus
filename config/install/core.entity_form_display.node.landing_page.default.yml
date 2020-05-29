@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - entity_browser.browser.media_entity_browser_modal
+    - entity_browser.browser.media_entity_browser_image_modal
     - field.field.node.landing_page.field_image
     - field.field.node.landing_page.field_metatags
     - field.field.node.landing_page.layout_builder__layout
@@ -25,7 +25,7 @@ content:
   field_image:
     weight: 121
     settings:
-      entity_browser: media_entity_browser_modal
+      entity_browser: media_entity_browser_image_modal
       field_widget_display: label
       field_widget_edit: true
       field_widget_remove: true
