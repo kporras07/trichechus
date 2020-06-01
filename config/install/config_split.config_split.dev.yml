@@ -7,7 +7,6 @@ description: ''
 folder: sites/default/config/dev
 module:
   devel: 0
-  field_ui: 0
   kint: 0
   views_ui: 0
 theme: {  }
