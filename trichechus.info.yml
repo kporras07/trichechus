@@ -63,7 +63,6 @@ dependencies:
   - paragraphs
   - path
   - pathauto
-  - quickedit
   - quicklink
   - recaptcha
   - redirect
