@@ -8,4 +8,8 @@ blocks:
   -
     block_id: 'inline_block:heading'
     weight: 0
+    image_path: ''
+  -
+    block_id: 'inline_block:basic_card'
+    weight: 0
     image_path: null

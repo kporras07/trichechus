@@ -1,0 +1,52 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.file
+    - views.view.media_entity_browser
+  module:
+    - dropzonejs_eb_widget
+    - media
+    - views
+name: media_entity_browser_file_modal
+label: 'Media Entity Browser File (Modal)'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Select files'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  cc31f2f3-a2b7-4dda-9b8d-a7ba3ecdec12:
+    settings:
+      form_mode: default
+      media_type: file
+      upload_location: 'public://files/[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop files here to upload them'
+      max_filesize: 100M
+      extensions: 'txt doc xls pdf ppt pps odt ods odp'
+      clientside_resize: false
+      resize_width: null
+      resize_height: null
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
+      submit_text: 'Upload new file'
+    uuid: cc31f2f3-a2b7-4dda-9b8d-a7ba3ecdec12
+    weight: 1
+    label: 'Upload new file'
+    id: dropzonejs_media_entity_inline_entity_form
+  8c355c7d-1d6e-42af-a6aa-57541f2022ae:
+    settings:
+      view: media_entity_browser
+      view_display: entity_browser_files
+      submit_text: 'Select file'
+      auto_select: false
+    uuid: 8c355c7d-1d6e-42af-a6aa-57541f2022ae
+    weight: 2
+    label: 'Choose existing file'
+    id: view

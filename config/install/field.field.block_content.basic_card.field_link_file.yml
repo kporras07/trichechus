@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_card
+    - field.storage.block_content.field_link_file
+    - paragraphs.paragraphs_type.file
+    - paragraphs.paragraphs_type.link
+  module:
+    - entity_reference_revisions
+id: block_content.basic_card.field_link_file
+field_name: field_link_file
+entity_type: block_content
+bundle: basic_card
+label: CTA
+description: 'Link or file to attach as a Call to Action.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      file: file
+      link: link
+    target_bundles_drag_drop:
+      file:
+        enabled: true
+        weight: 3
+      link:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

@@ -1,0 +1,60 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_card
+    - field.field.block_content.basic_card.field_basic_card_variation
+    - field.field.block_content.basic_card.field_description_unlimited
+    - field.field.block_content.basic_card.field_link_file
+    - field.field.block_content.basic_card.field_title
+    - field.field.block_content.basic_card.field_title_heading_level
+  module:
+    - entity_reference_revisions
+    - options
+    - text
+id: block_content.basic_card.default
+targetEntityType: block_content
+bundle: basic_card
+mode: default
+content:
+  field_basic_card_variation:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_description_unlimited:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_link_file:
+    type: entity_reference_revisions_entity_view
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  field_title:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title_heading_level:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true
