@@ -9,7 +9,6 @@ dependencies:
   - admin_toolbar
   - admin_toolbar_links_access_filter
   - admin_toolbar_tools
-  - analytics
   - better_exposed_filters
   - block
   - block_content
@@ -40,6 +39,7 @@ dependencies:
   - file
   - filter
   - focal_point
+  - google_analytics
   - help
   - honeypot
   - image
@@ -49,7 +49,6 @@ dependencies:
   - kint
   - layout_builder
   - layout_builder_browser
-  - layout_builder_modal
   - link
   - media_entity_browser
   - media_entity_facebook
