@@ -18,7 +18,6 @@ This project contains several modules commonly used in Manati projects:
 
 - admin_toolbar
 - admin_toolbar_tools
-- analytics
 - better_exposed_filters
 - components
 - config_split
@@ -29,11 +28,11 @@ This project contains several modules commonly used in Manati projects:
 - entity_embed
 - environment_indicator
 - focal_point
+- google_analytics
 - honeypot
 - image_style_quality
 - inline_entity_form
 - layout_builder_browser
-- layout_builder_modal
 - layout_builder_restrictions
 - media_entity_browser
 - media_entity_facebook

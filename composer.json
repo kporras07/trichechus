@@ -73,13 +73,12 @@
     "drupal/retina_images": "1.x-dev",
     "drupal/smtp": "^1.0",
     "drupal/shs": "^1.0",
-    "drupal/analytics": "^1.0",
+    "drupal/google_analytics": "^3.0",
     "drupal/warmer": "^1.1",
     "drupal/search_api_solr": "^4.0",
     "drupal/redis": "^1.4",
     "drupal/url_embed": "^1.0",
     "drupal/layout_builder_restrictions": "^2.7",
-    "drupal/layout_builder_modal": "^1.1",
     "drupal/layout_builder_browser": "^1.0"
   },
   "require-dev": {
