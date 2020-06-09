@@ -66,7 +66,7 @@
     "drupal/media_entity_twitter": "^2.4",
     "drupal/media_entity_instagram": "^2.0",
     "emulsify-ds/emulsify-drupal": "^1.0@beta",
-    "drupal/components": "^1.1",
+    "drupal/components": "^2.0",
     "drupal/redirect": "^1.6",
     "drupal/quicklink": "^1.2",
     "drupal/image_style_quality": "^1.3",
